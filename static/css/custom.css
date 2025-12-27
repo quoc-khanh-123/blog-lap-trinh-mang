@@ -1,0 +1,13 @@
+.custom-avatar {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.custom-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
