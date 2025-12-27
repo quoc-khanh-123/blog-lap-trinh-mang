@@ -12,6 +12,7 @@ publishDir = "docs"
 [params]
   author = "Tên của bạn"
 
+  # Giao diện sáng trắng – xanh
   defaultTheme = "light"
   disableThemeToggle = true
 
@@ -21,7 +22,7 @@ publishDir = "docs"
   ShowCodeCopyButtons = true
 
 # =====================
-# LOAD CSS CUSTOM (BẮT BUỘC)
+# LOAD CSS CUSTOM
 # =====================
 [params.assets]
   css = ["css/custom.css"]
@@ -34,18 +35,18 @@ publishDir = "docs"
   title = "Blog Lập Trình Mạng"
   subtitle = "Chia sẻ kiến thức Java & JavaScript về lập trình mạng"
 
-  # Ảnh đại diện - ĐÃ SỬA: thêm / ở đầu và baseURL
-  imageUrl = "/blog-lap-trinh-mang/images/avatar.jpg"
+  # Ảnh đại diện
+  imageUrl = "images/avatar.jpg"
   imageWidth = 180
   imageHeight = 180
 
   [[params.profileMode.buttons]]
     name = "📚 Bài viết"
-    url = "/blog-lap-trinh-mang/posts/"
+    url = "/posts/"
 
   [[params.profileMode.buttons]]
     name = "👤 Profile"
-    url = "/blog-lap-trinh-mang/profile/"
+    url = "/profile/"
 
 # =====================
 # MENU
@@ -54,15 +55,15 @@ publishDir = "docs"
 
   [[menu.main]]
     name = "🏠 Home"
-    url = "/blog-lap-trinh-mang/"
+    url = "/"
     weight = 1
 
   [[menu.main]]
     name = "📝 Blog"
-    url = "/blog-lap-trinh-mang/posts/"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]
     name = "🙋 Profile"
-    url = "/blog-lap-trinh-mang/profile/"
+    url = "/profile/"
     weight = 3

@@ -1,23 +1,15 @@
 ---
-title: "Profile Cá Nhân"
+title: "Profile"
+layout: "page"
 ---
 
-## 👨‍🎓 Thông tin cá nhân
-- Họ tên: Vũ Đức Quốc Khánh
-- Sinh viên: Trường Đại học Công nghệ
-- Ngành học: Công nghệ thông tin  
+## 👋 Xin chào
 
-## 💻 Định hướng
-- Lập trình mạng
-- Phát triển ứng dụng Java
-- Lập trình Web với JavaScript
+Mình là **Quốc Khánh**,  
+blog này chia sẻ kiến thức **Java & JavaScript về lập trình mạng**.
 
-## 🛠️ Kỹ năng
-- Java Core
-- Java Socket (TCP/UDP)
-- JavaScript (Fetch API, REST)
-- Kiến thức mạng máy tính
-
-## 📫 Liên hệ
-- Email: vuducquockhanh1006@gmail.com 
-- GitHub: https://github.com/username
+### 🔧 Kỹ năng
+- Java Socket / TCP / UDP
+- REST API
+- WebSocket
+- Networking cơ bản

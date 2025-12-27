@@ -152,33 +152,19 @@ date: 2025-12-22&lt;/p&gt;
 ws.onmessage = e =&amp;gt; console.log(e.data);&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Profile Cá Nhân</title>
+      <title>Profile</title>
       <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/profile/</guid>
-      <description>&lt;h2 id=&#34;-thông-tin-cá-nhân&#34;&gt;👨‍🎓 Thông tin cá nhân&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;-xin-chào&#34;&gt;👋 Xin chào&lt;/h2&gt;
+&lt;p&gt;Mình là &lt;strong&gt;Quốc Khánh&lt;/strong&gt;,&lt;br&gt;
+blog này chia sẻ kiến thức &lt;strong&gt;Java &amp;amp; JavaScript về lập trình mạng&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;-kỹ-năng&#34;&gt;🔧 Kỹ năng&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Họ tên: Vũ Đức Quốc Khánh&lt;/li&gt;
-&lt;li&gt;Sinh viên: Trường Đại học Công nghệ&lt;/li&gt;
-&lt;li&gt;Ngành học: Công nghệ thông tin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-định-hướng&#34;&gt;💻 Định hướng&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lập trình mạng&lt;/li&gt;
-&lt;li&gt;Phát triển ứng dụng Java&lt;/li&gt;
-&lt;li&gt;Lập trình Web với JavaScript&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-kỹ-năng&#34;&gt;🛠️ Kỹ năng&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Java Core&lt;/li&gt;
-&lt;li&gt;Java Socket (TCP/UDP)&lt;/li&gt;
-&lt;li&gt;JavaScript (Fetch API, REST)&lt;/li&gt;
-&lt;li&gt;Kiến thức mạng máy tính&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-liên-hệ&#34;&gt;📫 Liên hệ&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Email: &lt;a href=&#34;mailto:vuducquockhanh1006@gmail.com&#34;&gt;vuducquockhanh1006@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/username&#34;&gt;https://github.com/username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Java Socket / TCP / UDP&lt;/li&gt;
+&lt;li&gt;REST API&lt;/li&gt;
+&lt;li&gt;WebSocket&lt;/li&gt;
+&lt;li&gt;Networking cơ bản&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
