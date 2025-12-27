@@ -40,8 +40,8 @@ body {
 
 /* Avatar */
 .profile_inner img {
-  width: 90px !important;
-  height: 90px !important;
+  width: 120px !important;
+  height: 120px !important;
   border-radius: 50%;
   border: 3px solid #1e88e5;
   padding: 4px;
