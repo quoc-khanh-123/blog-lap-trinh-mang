@@ -2,10 +2,16 @@ baseURL = "https://quoc-khanh-123.github.io/blog-lap-trinh-mang/"
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
+
+# GitHub Pages build ra thư mục docs
 publishDir = "docs"
 
+# =====================
+# PARAMS CHUNG
+# =====================
 [params]
   author = "Tên của bạn"
+
   defaultTheme = "light"
   disableThemeToggle = true
 
@@ -14,33 +20,49 @@ publishDir = "docs"
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
 
+# =====================
+# LOAD CSS CUSTOM (BẮT BUỘC)
+# =====================
+[params.assets]
+  css = ["css/custom.css"]
+
+# =====================
+# PROFILE MODE (HOME)
+# =====================
 [params.profileMode]
   enabled = true
   title = "Blog Lập Trình Mạng"
   subtitle = "Chia sẻ kiến thức Java & JavaScript về lập trình mạng"
+
+  # Ảnh đại diện
   imageUrl = "images/avatar.jpg"
+  imageWidth = 160
+  imageHeight = 160
 
   [[params.profileMode.buttons]]
-    name = "Bài viết"
+    name = "📚 Bài viết"
     url = "/posts/"
 
   [[params.profileMode.buttons]]
-    name = "Profile"
+    name = "👤 Profile"
     url = "/profile/"
 
+# =====================
+# MENU
+# =====================
 [menu]
 
   [[menu.main]]
-    name = "Home"
+    name = "🏠 Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Blog"
+    name = "📝 Blog"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "Profile"
+    name = "🙋 Profile"
     url = "/profile/"
     weight = 3
