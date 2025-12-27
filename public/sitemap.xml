@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/java-http-server/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-http-server/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/java-multithread-server/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-multithread-server/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/java-socket-co-ban/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/java-tcp-server-client/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-tcp-server-client/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/java-udp/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/js-fetch-api/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-fetch-api/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/js-nodejs-network/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-nodejs-network/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/js-rest-api/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-rest-api/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/js-websocket/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-websocket/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/profile/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/profile/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/tags/</loc>
   </url>
 </urlset>

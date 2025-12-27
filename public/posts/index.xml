@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/</link>
     <description>Recent content in Posts on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/java-http-server/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-http-server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-http-server/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-http-server/</guid>
       <description>&lt;p&gt;Tạo HTTP Server đơn giản bằng Java
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -23,9 +23,9 @@ date: 2025-12-22&lt;/p&gt;
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/java-multithread-server/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-multithread-server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-multithread-server/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-multithread-server/</guid>
       <description>&lt;p&gt;Xây dựng Server đa luồng trong Java
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -39,9 +39,9 @@ date: 2025-12-22&lt;/p&gt;
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/java-socket-co-ban/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-socket-co-ban/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/</guid>
       <description>&lt;p&gt;Lập trình Socket cơ bản trong Java
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -58,9 +58,9 @@ Socket client = server.accept();&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/java-tcp-server-client/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-tcp-server-client/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-tcp-server-client/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-tcp-server-client/</guid>
       <description>&lt;p&gt;Lập trình TCP Client – Server trong Java
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -76,9 +76,9 @@ Socket client = server.accept();&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/java-udp/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-udp/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/</guid>
       <description>&lt;p&gt;Lập trình UDP trong Java
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -91,9 +91,9 @@ byte[] data = &amp;ldquo;Hello UDP&amp;rdquo;.getBytes();&lt;/p&gt;</description
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/js-fetch-api/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-fetch-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/js-fetch-api/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-fetch-api/</guid>
       <description>&lt;p&gt;Sử dụng Fetch API trong JavaScript
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -107,9 +107,9 @@ date: 2025-12-22&lt;/p&gt;
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/js-nodejs-network/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-nodejs-network/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/js-nodejs-network/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-nodejs-network/</guid>
       <description>&lt;p&gt;Lập trình mạng với Node.js
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -124,9 +124,9 @@ res.end(&amp;ldquo;Hello Node.js&amp;rdquo;);
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/js-rest-api/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-rest-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/js-rest-api/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-rest-api/</guid>
       <description>&lt;p&gt;REST API và JavaScript
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
@@ -138,9 +138,9 @@ date: 2025-12-22&lt;/p&gt;
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/js-websocket/</link>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-websocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/js-websocket/</guid>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-websocket/</guid>
       <description>&lt;p&gt;Giao tiếp Realtime với WebSocket trong JavaScript
 date: 2025-12-22&lt;/p&gt;
 &lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
