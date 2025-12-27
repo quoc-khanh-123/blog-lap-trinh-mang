@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/java-http-server/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/java-multithread-server/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/java-socket-co-ban/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/java-tcp-server-client/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/java-udp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/js-fetch-api/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/js-nodejs-network/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/js-rest-api/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/js-websocket/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/profile/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,43 @@
+baseURL = "http://localhost:1313/"
+languageCode = "vi"
+title = "Blog Lập Trình Mạng"
+theme = "PaperMod"
+
+[params]
+  author = "Tên của bạn"
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+  # 🌤 Giao diện trắng – xanh
+  defaultTheme = "light"
+  disableThemeToggle = true
+  accentColor = "#1e88e5"
+
+  customCSS = ["css/custom.css"]
+
+[params.profileMode]
+  enabled = true
+  title = "Blog Lập Trình Mạng"
+  subtitle = "Chia sẻ kiến thức Java & JavaScript về lập trình mạng"
+
+   imageUrl = "images/avatar.jpg"
+  imageTitle = "Ảnh đại diện"
+  imageWidth = 150
+  imageHeight = 150
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Profile"
+    url = "/profile/"
+    weight = 3
