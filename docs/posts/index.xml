@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Blog Lập Trình Mạng</title>
+    <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/</link>
+    <description>Recent content in Posts on Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi</language>
+    <atom:link href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-http-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-http-server/</guid>
+      <description>&lt;p&gt;Tạo HTTP Server đơn giản bằng Java
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Java có thể xây dựng HTTP Server mà không cần framework phức tạp.&lt;/p&gt;
+&lt;h2 id=&#34;-kiến-thức-chính&#34;&gt;🧠 Kiến thức chính&lt;/h2&gt;
+&lt;p&gt;Sử dụng HttpServer trong package com.sun.net.httpserver.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-multithread-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-multithread-server/</guid>
+      <description>&lt;p&gt;Xây dựng Server đa luồng trong Java
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Server đa luồng giúp xử lý nhiều client cùng lúc.&lt;/p&gt;
+&lt;h2 id=&#34;-nguyên-lý&#34;&gt;🧠 Nguyên lý&lt;/h2&gt;
+&lt;p&gt;Mỗi client được xử lý trong một Thread riêng biệt.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;new Thread(() -&amp;gt; {
+// xử lý client
+}).start();&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/</guid>
+      <description>&lt;p&gt;Lập trình Socket cơ bản trong Java
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Lập trình socket là nền tảng của lập trình mạng, cho phép các chương trình giao tiếp với nhau qua mạng.&lt;/p&gt;
+&lt;h2 id=&#34;-socket-trong-java&#34;&gt;🧩 Socket trong Java&lt;/h2&gt;
+&lt;p&gt;Java cung cấp hai lớp quan trọng:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ServerSocket&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-ví-dụ-server&#34;&gt;🔧 Ví dụ Server&lt;/h2&gt;
+&lt;p&gt;ServerSocket server = new ServerSocket(8080);
+Socket client = server.accept();&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-tcp-server-client/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-tcp-server-client/</guid>
+      <description>&lt;p&gt;Lập trình TCP Client – Server trong Java
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;TCP là giao thức hướng kết nối, đảm bảo dữ liệu được truyền đầy đủ và đúng thứ tự giữa Client và Server.&lt;/p&gt;
+&lt;h2 id=&#34;-mô-hình-tcp&#34;&gt;🧠 Mô hình TCP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Server mở cổng và chờ kết nối&lt;/li&gt;
+&lt;li&gt;Client chủ động kết nối đến Server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-ví-dụ-server-tcp&#34;&gt;💻 Ví dụ Server TCP&lt;/h2&gt;
+&lt;p&gt;ServerSocket server = new ServerSocket(9000);
+Socket client = server.accept();&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/</guid>
+      <description>&lt;p&gt;Lập trình UDP trong Java
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;UDP là giao thức không kết nối, truyền dữ liệu nhanh nhưng không đảm bảo độ tin cậy.&lt;/p&gt;
+&lt;h2 id=&#34;-kiến-thức-chính&#34;&gt;🧠 Kiến thức chính&lt;/h2&gt;
+&lt;p&gt;UDP sử dụng DatagramSocket và DatagramPacket để gửi/nhận dữ liệu.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;DatagramSocket socket = new DatagramSocket();
+byte[] data = &amp;ldquo;Hello UDP&amp;rdquo;.getBytes();&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-fetch-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-fetch-api/</guid>
+      <description>&lt;p&gt;Sử dụng Fetch API trong JavaScript
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Fetch API dùng để gửi HTTP request từ trình duyệt.&lt;/p&gt;
+&lt;h2 id=&#34;-kiến-thức-chính&#34;&gt;🧠 Kiến thức chính&lt;/h2&gt;
+&lt;p&gt;Fetch trả về Promise và hỗ trợ async/await.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;fetch(&amp;quot;/api/data&amp;quot;)
+.then(res =&amp;gt; res.json())
+.then(data =&amp;gt; console.log(data));&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-nodejs-network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-nodejs-network/</guid>
+      <description>&lt;p&gt;Lập trình mạng với Node.js
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;Node.js cho phép JavaScript chạy phía server.&lt;/p&gt;
+&lt;h2 id=&#34;-kiến-thức-chính&#34;&gt;🧠 Kiến thức chính&lt;/h2&gt;
+&lt;p&gt;Node.js hỗ trợ TCP/HTTP thông qua module net và http.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;const http = require(&amp;ldquo;http&amp;rdquo;);
+http.createServer((req, res) =&amp;gt; {
+res.end(&amp;ldquo;Hello Node.js&amp;rdquo;);
+}).listen(3000);&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-rest-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-rest-api/</guid>
+      <description>&lt;p&gt;REST API và JavaScript
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;REST API là chuẩn phổ biến để xây dựng hệ thống backend.&lt;/p&gt;
+&lt;h2 id=&#34;-kiến-thức-chính&#34;&gt;🧠 Kiến thức chính&lt;/h2&gt;
+&lt;p&gt;REST sử dụng các phương thức HTTP như GET, POST, PUT, DELETE.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;fetch(&amp;quot;/users&amp;quot;, { method: &amp;ldquo;GET&amp;rdquo; });&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-websocket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/js-websocket/</guid>
+      <description>&lt;p&gt;Giao tiếp Realtime với WebSocket trong JavaScript
+date: 2025-12-22&lt;/p&gt;
+&lt;h2 id=&#34;-giới-thiệu&#34;&gt;📌 Giới thiệu&lt;/h2&gt;
+&lt;p&gt;WebSocket cho phép giao tiếp hai chiều realtime.&lt;/p&gt;
+&lt;h2 id=&#34;-nguyên-lý&#34;&gt;🧠 Nguyên lý&lt;/h2&gt;
+&lt;p&gt;Kết nối được giữ liên tục giữa client và server.&lt;/p&gt;
+&lt;h2 id=&#34;-ví-dụ-minh-họa&#34;&gt;💻 Ví dụ minh họa&lt;/h2&gt;
+&lt;p&gt;const ws = new WebSocket(&amp;ldquo;ws://localhost:8080&amp;rdquo;);
+ws.onmessage = e =&amp;gt; console.log(e.data);&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
