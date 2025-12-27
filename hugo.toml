@@ -35,7 +35,7 @@ publishDir = "docs"
   title = "Blog Lập Trình Mạng"
   subtitle = "Java & JavaScript – Lập trình mạng từ cơ bản đến nâng cao"
 
-  imageUrl = "/images/avatar.jpg"
+  imageUrl = "images/avatar.jpg"
   imageWidth = 150
   imageHeight = 150
 
