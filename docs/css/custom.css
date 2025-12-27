@@ -1,17 +1,106 @@
-/* FORCE avatar size (override PaperMod) */
-.custom-avatar img {
-  width: 60px !important;
-  height: 60px !important;
-  max-width: 60px !important;
-  max-height: 60px !important;
-
-  border-radius: 80% !important;
-  object-fit: cover !important;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15) !important;
+/* =========================
+   GLOBAL STYLE
+========================= */
+body {
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
-.custom-avatar {
-  display: flex !important;
-  justify-content: center !important;
-  margin: 60px 0 !important;
+/* =========================
+   HEADER / NAVBAR
+========================= */
+.header {
+  border-bottom: 1px solid #eaeaea;
+  backdrop-filter: blur(6px);
+}
+
+.nav a {
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #1e88e5;
+}
+
+/* =========================
+   PROFILE MODE
+========================= */
+.profile {
+  padding-top: 40px;
+}
+
+.profile_inner {
+  max-width: 520px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Avatar */
+.profile_inner img {
+  width: 90px !important;
+  height: 90px !important;
+  border-radius: 50%;
+  border: 3px solid #1e88e5;
+  padding: 4px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+}
+
+/* Title */
+.profile_inner h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Subtitle */
+.profile_inner span {
+  color: #555;
+  font-size: 16px;
+}
+
+/* =========================
+   PROFILE BUTTONS
+========================= */
+.profile .buttons a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #1e88e5;
+  color: #1e88e5;
+  transition: all 0.25s ease;
+}
+
+.profile .buttons a:hover {
+  background: #1e88e5;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30,136,229,0.35);
+}
+
+/* =========================
+   POST LIST
+========================= */
+.post-entry {
+  border-radius: 14px;
+  padding: 18px;
+  transition: all 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  opacity: 0.7;
+  font-size: 14px;
 }

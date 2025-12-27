@@ -6,15 +6,14 @@ publishDir = "docs"
 
 [params]
   author = "Tên của bạn"
+  defaultTheme = "light"
+  disableThemeToggle = true
 
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
-
-  defaultTheme = "light"
-  disableThemeToggle = true
 
 [params.assets]
   css = ["css/custom.css"]
@@ -23,11 +22,7 @@ publishDir = "docs"
   enabled = true
   title = "Blog Lập Trình Mạng"
   subtitle = "Java & JavaScript – Lập trình mạng từ cơ bản đến nâng cao"
-
-
-  imageTitle = "Ảnh đại diện"
-  imageWidth = 150
-  imageHeight = 150
+  imageUrl = "images/avatar.jpg"
 
   [[params.profileMode.buttons]]
     name = "📚 Bài viết"
@@ -36,20 +31,3 @@ publishDir = "docs"
   [[params.profileMode.buttons]]
     name = "👤 Profile"
     url = "/profile/"
-
-[menu]
-
-  [[menu.main]]
-    name = "🏠 Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "📝 Blog"
-    url = "/posts/"
-    weight = 2
-
-  [[menu.main]]
-    name = "🙋 Profile"
-    url = "/profile/"
-    weight = 3
