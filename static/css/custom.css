@@ -1,13 +1,13 @@
 .custom-avatar {
   display: flex;
   justify-content: center;
-  margin: 16px 0;
+  margin: 12px 0;
 }
 
 .custom-avatar img {
-  width: 50px;        /* 👈 kích thước nhỏ */
-  height: 90px;
+  width: 60px;     /* 👈 rất nhỏ */
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
