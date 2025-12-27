@@ -2,13 +2,8 @@ baseURL = "https://quoc-khanh-123.github.io/blog-lap-trinh-mang/"
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
-
-# 🔥 Build ra thư mục docs cho GitHub Pages
 publishDir = "docs"
 
-# =========================
-# PARAMS CHUNG
-# =========================
 [params]
   author = "Tên của bạn"
 
@@ -21,21 +16,16 @@ publishDir = "docs"
   defaultTheme = "light"
   disableThemeToggle = true
 
-# =========================
-# LOAD CSS CUSTOM (ĐÚNG CHUẨN PAPERMON)
-# =========================
 [params.assets]
   css = ["css/custom.css"]
 
-# =========================
-# PROFILE MODE (TRANG HOME)
-# =========================
 [params.profileMode]
   enabled = true
   title = "Blog Lập Trình Mạng"
   subtitle = "Java & JavaScript – Lập trình mạng từ cơ bản đến nâng cao"
 
   imageUrl = "images/avatar.jpg"
+  imageTitle = "Ảnh đại diện"
   imageWidth = 150
   imageHeight = 150
 
@@ -47,9 +37,6 @@ publishDir = "docs"
     name = "👤 Profile"
     url = "/profile/"
 
-# =========================
-# MENU
-# =========================
 [menu]
 
   [[menu.main]]
