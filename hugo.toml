@@ -34,18 +34,18 @@ publishDir = "docs"
   title = "Blog Lập Trình Mạng"
   subtitle = "Chia sẻ kiến thức Java & JavaScript về lập trình mạng"
 
-  # Ảnh đại diện
-  imageUrl = "images/avatar.jpg"
-  imageWidth = 160
-  imageHeight = 160
+  # Ảnh đại diện - ĐÃ SỬA: thêm / ở đầu và baseURL
+  imageUrl = "/blog-lap-trinh-mang/images/avatar.jpg"
+  imageWidth = 180
+  imageHeight = 180
 
   [[params.profileMode.buttons]]
     name = "📚 Bài viết"
-    url = "/posts/"
+    url = "/blog-lap-trinh-mang/posts/"
 
   [[params.profileMode.buttons]]
     name = "👤 Profile"
-    url = "/profile/"
+    url = "/blog-lap-trinh-mang/profile/"
 
 # =====================
 # MENU
@@ -54,15 +54,15 @@ publishDir = "docs"
 
   [[menu.main]]
     name = "🏠 Home"
-    url = "/"
+    url = "/blog-lap-trinh-mang/"
     weight = 1
 
   [[menu.main]]
     name = "📝 Blog"
-    url = "/posts/"
+    url = "/blog-lap-trinh-mang/posts/"
     weight = 2
 
   [[menu.main]]
     name = "🙋 Profile"
-    url = "/profile/"
+    url = "/blog-lap-trinh-mang/profile/"
     weight = 3
