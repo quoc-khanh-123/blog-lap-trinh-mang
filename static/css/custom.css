@@ -1,13 +1,17 @@
-.custom-avatar {
-  display: flex;
-  justify-content: center;
-  margin: 12px 0;
+/* FORCE avatar size (override PaperMod) */
+.custom-avatar img {
+  width: 48px !important;
+  height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15) !important;
 }
 
-.custom-avatar img {
-  width: 60px;     /* 👈 rất nhỏ */
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+.custom-avatar {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 8px 0 !important;
 }
