@@ -13,21 +13,34 @@ publishDir = "docs"
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  ShowBreadCrumbs = true
-
-[params.assets]
-  css = ["css/custom.css"]
 
 [params.profileMode]
   enabled = true
   title = "Blog Lập Trình Mạng"
-  subtitle = "Java & JavaScript – Lập trình mạng từ cơ bản đến nâng cao"
+  subtitle = "Chia sẻ kiến thức Java & JavaScript về lập trình mạng"
   imageUrl = "images/avatar.jpg"
 
   [[params.profileMode.buttons]]
-    name = "📚 Bài viết"
+    name = "Bài viết"
     url = "/posts/"
 
   [[params.profileMode.buttons]]
-    name = "👤 Profile"
+    name = "Profile"
     url = "/profile/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Profile"
+    url = "/profile/"
+    weight = 3
