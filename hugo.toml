@@ -1,4 +1,5 @@
 baseURL = "https://quoc-khanh-123.github.io/blog-lap-trinh-mang/"
+publishDir = "docs"
 
 languageCode = "vi"
 title = "Blog Lập Trình Mạng"
