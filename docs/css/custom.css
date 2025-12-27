@@ -5,7 +5,7 @@
   max-width: 60px !important;
   max-height: 60px !important;
 
-  border-radius: 50% !important;
+  border-radius: 80% !important;
   object-fit: cover !important;
   box-shadow: 0 3px 8px rgba(0,0,0,0.15) !important;
 }
@@ -13,5 +13,5 @@
 .custom-avatar {
   display: flex !important;
   justify-content: center !important;
-  margin: 8px 0 !important;
+  margin: 60px 0 !important;
 }
