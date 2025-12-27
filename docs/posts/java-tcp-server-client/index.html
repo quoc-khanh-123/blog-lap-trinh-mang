@@ -127,18 +127,18 @@ Socket client = server.accept();">
         </div>
         <ul id="menu">
             <li>
-                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/" title="Home">
-                    <span>Home</span>
+                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/" title="🏠 Home">
+                    <span>🏠 Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/" title="Blog">
-                    <span>Blog</span>
+                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/" title="📝 Blog">
+                    <span>📝 Blog</span>
                 </a>
             </li>
             <li>
-                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/profile/" title="Profile">
-                    <span>Profile</span>
+                <a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/profile/" title="🙋 Profile">
+                    <span>🙋 Profile</span>
                 </a>
             </li>
         </ul>
@@ -148,7 +148,7 @@ Socket client = server.accept();">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/">Trang chủ</a>&nbsp;»&nbsp;<a href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       
     </h1>
@@ -175,6 +175,19 @@ Socket client = server.accept();</p>
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-socket-co-ban/">
+    <span class="title">« Trang trước</span>
+    <br>
+    <span></span>
+  </a>
+  <a class="next" href="https://quoc-khanh-123.github.io/blog-lap-trinh-mang/posts/java-udp/">
+    <span class="title">Trang tiếp theo »</span>
+    <br>
+    <span></span>
+  </a>
+</nav>
+
 
 <ul class="share-buttons">
     <li>
@@ -308,6 +321,53 @@ Socket client = server.accept();</p>
         }
     };
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'Sao chép';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'Đã sao chép!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'Sao chép';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
